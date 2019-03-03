@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test1/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="269">
+              <caret line="86" column="60" selection-start-line="86" selection-start-column="60" selection-end-line="86" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -89,7 +89,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
     <option name="width" value="960" />
     <option name="height" value="1024" />
   </component>
@@ -105,11 +106,6 @@
           <expand>
             <path>
               <item name="test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
               <item name="test1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -186,14 +182,28 @@
       <option name="project" value="LOCAL" />
       <updated>1551588002991</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="allowed hosts">
+      <created>1551588123879</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1551588123879</updated>
+    </task>
+    <task id="LOCAL-00007" summary="allowed hosts">
+      <created>1551588439436</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551588439436</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
+    <frame x="960" y="0" width="960" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16710876" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3488372" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -392,8 +402,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test1/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="269">
+          <caret line="86" column="60" selection-start-line="86" selection-start-column="60" selection-end-line="86" selection-end-column="60" />
         </state>
       </provider>
     </entry>

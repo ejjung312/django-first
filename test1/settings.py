@@ -23,10 +23,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '=y@bl^3-r_$i2b#y-2by2yz)#24o*k=r%n_t)j@$gj((_wfi*n'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+#DEBUG = False
+DEBUG = True
 
-#ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', 'ejjung312.pythonanywhere.com']
-ALLOWED_HOSTS = ['ejjung312.pythonanywhere.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = ['ejjung312.pythonanywhere.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'books.apps.BooksConfig',
     'polls.apps.PollsConfig',
+    'boards.apps.BoardsConfig',
 	#'books',
 ]
 
@@ -79,12 +81,16 @@ WSGI_APPLICATION = 'test1.wsgi.application'
 
 DATABASES = {
     'default': {
-        #'ENGINE': 'django.db.backends.sqlite3',
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ejjung312$test1',
-        'USER': 'ejjung312',
-        'PASSWORD': 'qwer1234',
-        'HOST': 'ejjung312.mysql.pythonanywhere-services.com',
+        # sqlite3
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+
+        # mysql
+        #'ENGINE': 'django.db.backends.mysql',
+        #'NAME': 'ejjung312$test1',
+        #'USER': 'ejjung312',
+        #'PASSWORD': 'qwer1234',
+        #'HOST': 'ejjung312.mysql.pythonanywhere-services.com',
     }
 }
 
